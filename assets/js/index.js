@@ -81,7 +81,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 currentQuestionIndex++;
                 displayQuestion(questions[currentQuestionIndex]);
             } else if (buttonText === 'Reload') {
-                currentQuestionIndex = 0; // Reset to first question
+                if (message === 'Quiz Completed!') {
+                    currentQuestionIndex = 0; // Reset to first question
+                }
                 displayQuestion(questions[currentQuestionIndex]);
             }
         };
