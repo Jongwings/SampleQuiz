@@ -1,29 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Web Application</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            text-align: center;
-        }
-    </style>
-    <script src="index.js"></script>
-</head>
-<body>
-    <div class="container">
-        <h1 id="HeaderTitle"></h1>
-        <p id="HeaderInfo"></p>
+    <title>Learning App</title>
+    <meta name="description" content="An interactive learning app">
+    <meta name="keywords" content="learning, education, interactive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="global_container_">
+      <header class="header">
+        <h1>TAMIL QUIZ APP</h1>
+      </header>
+      <div class="header2">
+        <span class="timer" id="timer">15 sec</span>
+      </div>
+      <main class="content">
+        <div class="image-container">
+          <div class="image-label"></div>
+          <!-- Questions and images will be inserted here -->
+        </div>
+      </main>
+      <footer>
+        <img id="speech-button" src="assets/images/speech.png" alt="Speak">
+        <div id="transcript" class="transcript"></div>
+      </footer>
     </div>
-</body>
+    <!-- Modal Structure -->
+    <div id="result-modal" class="modal">
+      <div class="modal-content">
+        <p id="modal-message"></p>
+        <button id="modal-button"></button>
+      </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
 </html>

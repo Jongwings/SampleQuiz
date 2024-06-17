@@ -1,0 +1,28 @@
+[
+    {
+      "question": "bus",
+      "answer": "பேருந்து",
+      "image": "10_D1_1 bus.png"
+    },
+    {
+      "question": "car",
+      "answer": "சீருந்து",
+      "image": "10_D1_2 car.jpg"
+    },
+    {
+      "question": "Ship",
+      "answer": "கப்பல்",
+      "image": "10_D1_3 ship.jpg"
+    },
+    {
+      "question": "airplane",
+      "answer": "விமானம்",
+      "image": "10_D1_4 airplane.png"
+    },
+    {
+      "question": "train",
+      "answer": "தொடர்வண்டி",
+      "image": "10_D1_5 train.jpg"
+    }
+  ]
+  
